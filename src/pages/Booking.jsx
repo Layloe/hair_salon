@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Calender from 'react-calendar'
-
+import 'react-calendar/dist/Calendar.css';
 import { useNavigate } from "react-router-dom";
 
 //Define variables for dropdown menus. These could be saved in MongoDB instead to make them updateable in a UI element.
