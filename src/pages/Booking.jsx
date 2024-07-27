@@ -4,7 +4,7 @@ import Calender from 'react-calendar'
 import 'react-calendar/dist/Calendar.css';
 import { useNavigate } from "react-router-dom";
 
-//Define variables for dropdown menus. These could be saved in MongoDB instead to make them updateable in a UI element.
+//Define variables for dropdown menus. These could be saved in MongoDB instead to make them updatable in a UI element.
 const services = [
     'Haircut',
     'Hair Coloring',
