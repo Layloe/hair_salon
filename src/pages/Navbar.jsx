@@ -27,13 +27,13 @@ const NavbarStyle = () => {
         <>
         <Navbar sticky="top" className="bg-white shadow-sm mb-3">
             <Container>
-                <Navbar.Brand href='#home'>Mane Salon</Navbar.Brand>
+                {/* <Navbar.Brand href='#home'>Mane Salon</Navbar.Brand> */}
                 <Nav className="me-auto">
-                    <Nav.Link href='#home'>Home</Nav.Link>
-                    <Nav.Link href='#staff'>Staff</Nav.Link>
-                    <Nav.Link href='#services'>Services</Nav.Link>
-                    <Nav.Link href='#booking'>Booking</Nav.Link>
-                    <Nav.Link href='#admin'>Admin</Nav.Link>
+                <Nav.Link to="/" as ={NavLink}>Home</Nav.Link>
+                    <Nav.Link href='/staff'>Staff</Nav.Link>
+                    <Nav.Link href='/services'>Services</Nav.Link>
+                    <Nav.Link href='/booking'>Booking</Nav.Link>
+                    <Nav.Link href='/admin'>Admin</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>
